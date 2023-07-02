@@ -134,7 +134,7 @@ header {
 
 /* MAIN */
 main {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   max-width: 1440px;
   max-height: 1000px;
@@ -143,6 +143,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 7rem 0;
 }
 
 .contact-container {
@@ -558,6 +559,6 @@ footer {
   }
   .contact-container {
     width: 75%;
-    height: 50%;
+    height: 60%;
   }
 }
