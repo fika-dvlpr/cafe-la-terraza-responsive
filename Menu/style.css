@@ -254,7 +254,7 @@ main {
 .menu-container h3 {
   font-size: 1rem;
   letter-spacing: 4px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .menu-container {
@@ -269,7 +269,7 @@ main {
 /* HOT-COFFEE SIZES */
 .grande-hc {
   position: absolute;
-  top: 50px;
+  top: 45px;
   right: 7px;
   width: 44px;
   font-size: 10px;
@@ -278,7 +278,7 @@ main {
 }
 .tall-hc {
   position: absolute;
-  top: 50px;
+  top: 45px;
   right: 67px;
   font-size: 10px;
   font-weight: bold;
@@ -295,7 +295,7 @@ main {
 }
 .grande-fb {
   position: absolute;
-  top: 50px;
+  top: 45px;
   right: 4px;
   width: 44px;
   font-size: 10px;
@@ -304,7 +304,7 @@ main {
 }
 .tall-fb {
   position: absolute;
-  top: 50px;
+  top: 45px;
   right: 59px;
   font-size: 10px;
   font-weight: bold;
@@ -521,17 +521,13 @@ footer {
     display: none;
   }
   header {
-    padding: 0 4rem;
-    transition: .5s;
-  }
-}
-
-@media (max-width: 425px) {
-  header {
     padding: 0 3rem;
     transition: .5s;
   }
+
 }
+
+
 
 /* LAPTOP */
 @media (max-width: 1082px) {
@@ -559,5 +555,81 @@ footer {
   }
   .menu-star-price {
     font-size: 14px;
+  }
+  .grande-hc,
+  .tall-hc,
+  .grande-fb,
+  .tall-fb {
+    font-size: 8px;
+  }
+  .soda-base-drinks {
+    left: 132px;
+  }
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+
+  .menu-list-link a {
+    font-size: 12px;
+  }
+  .menu-container {
+    width: 290px;
+    padding: 0;
+  }
+  .menu-container h3 {
+    font-size: 12px;
+  }
+  .menu-name {
+    font-size: 12px;
+  }
+  .menu-star-price {
+    font-size: 12px;
+  }
+  .grande-hc {
+    top: 35px;
+    right: -10px;
+  }
+  .tall-hc {
+    top: 35px;
+    right: 42px;
+  }
+  .soda-base-drinks {
+    left: 83px;
+    top: 18px;
+  }
+  .grande-fb {
+    top: 35px;
+    right: -14px;
+  }
+  .tall-fb {
+    top: 35px;
+    right: 37px;
+  }
+  .menu-section {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 544px) {
+  .menu-section {
+    padding: 3rem 3rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 499px) {
+  .menu-container {
+    width: 260px;
+  }
+  .menu-name {
+    font-size: 10px;
+  }
+  .menu-star-price {
+    font-size: 10px;
+  }
+  .soda-base-drinks {
+    left: 74px;
   }
 }
