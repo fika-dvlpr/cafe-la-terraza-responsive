@@ -21,7 +21,6 @@ body {
   font-family: Arial;
 }
 
-
 /* NAVIGATION BAR */
 header {
   display: flex;
@@ -36,7 +35,6 @@ header {
   top: 0;
   left: 0;
   border-bottom: 1px solid gray;
-
 }
 
 .logo {
@@ -134,7 +132,6 @@ header {
   }
 }
 
-
 /* HOME SECTION */
 .home {
   background: url(../Images/home-bg.jpg);
@@ -143,7 +140,7 @@ header {
   background-position: bottom;
   width: 100%;
   max-height: 1300px;
-  height: 90vh;
+  height: 95vh;
   position: relative;
   margin-top: 60px;
   padding: 0;
@@ -194,7 +191,7 @@ header {
 }
 
 .home-button:hover {
-  background-color: #C06E33;
+  background-color: #c06e33;
   color: #f8f4ea;
   transition: 0.4s linear;
 }
@@ -205,7 +202,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   background-color: #402218;
 }
 .container-quotes p {
@@ -448,7 +445,6 @@ header {
   padding: 8px 0px 0;
 }
 
-
 /* FOOTER */
 .copyright {
   text-align: center;
@@ -649,17 +645,16 @@ footer {
   }
   header {
     padding: 0 4rem;
-    transition: .5s;
+    transition: 0.5s;
   }
 }
 
 @media (max-width: 425px) {
   header {
     padding: 0 3rem;
-    transition: .5s;
+    transition: 0.5s;
   }
 }
-
 
 /* SECTION LAPTOP*/
 @media (max-width: 1160px) {
@@ -672,14 +667,14 @@ footer {
   }
   .about-picture img {
     width: 24rem;
-    transition: .5s;
+    transition: 0.5s;
   }
   .about-content p {
     letter-spacing: 0;
   }
   .box-container {
     gap: 4rem;
-    transition: .5s;
+    transition: 0.5s;
   }
   .card-hero {
     font-size: 13px;
@@ -693,7 +688,6 @@ footer {
   .card-text-2 {
     font-size: 12px;
   }
- 
 }
 
 /* LAPTOP SMALL */
@@ -722,12 +716,12 @@ footer {
   .customer-comments {
     font-size: 11px;
     letter-spacing: 0;
-    transition: .5s;
+    transition: 0.5s;
   }
   .customer-img-name img {
     width: 45px;
     height: 45px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .card {
     width: 240px;
@@ -754,20 +748,19 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    transition: .5s;
+    transition: 0.5s;
     margin-bottom: 2rem;
   }
 
   .about-picture img {
-    margin-top: 6rem ;
+    margin-top: 6rem;
     width: 22rem;
-    transition: .5s;
+    transition: 0.5s;
   }
   .about-content h1 {
     padding-bottom: 16px;
   }
   .about-content p {
-
     margin: 0 0 1rem 0;
     text-align: center;
   }
@@ -779,7 +772,7 @@ footer {
     flex-direction: column;
     margin: 0;
     align-items: center;
-    transition: .5s;
+    transition: 0.5s;
     margin-top: 3rem;
   }
   .customer-reviews {
@@ -792,12 +785,12 @@ footer {
   .customer-img-name img {
     width: 40px;
     height: 40px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .customer-img-name {
     margin-bottom: 4px;
   }
-  .customer-name-review{
+  .customer-name-review {
     font-size: 8px;
   }
 
@@ -806,7 +799,7 @@ footer {
     width: 200px;
     height: 280px;
   }
-  
+
   .card-button,
   .card-button-2 {
     font-size: 11px;
@@ -815,7 +808,7 @@ footer {
   .hero h1 {
     margin-top: 40px;
   }
- 
+
   .card-hero,
   .card-hero-2 {
     font-size: 11px;
@@ -832,7 +825,7 @@ footer {
   .home-button {
     padding: 6px 1.5rem;
   }
-  
+
   .about-content p {
     font-size: 12px;
   }
@@ -840,8 +833,6 @@ footer {
     padding: 0rem 6rem;
   }
 }
-
-
 
 @media (max-width: 544px) {
   .customer-1 {
@@ -860,16 +851,16 @@ footer {
   .customer-comments {
     font-size: 10px;
   }
- 
+
   .card-text,
   .card-text-2 {
     padding: 6px 0 0;
-    transition: .5s;
+    transition: 0.5s;
   }
   .card,
   .card-2 {
     padding: 6px;
-    transition: .5s;
+    transition: 0.5s;
     width: 180px;
     height: 250px;
   }
@@ -899,7 +890,7 @@ footer {
   }
   .about-picture img {
     width: 18rem;
-    transition: .5s;
+    transition: 0.5s;
   }
 }
 

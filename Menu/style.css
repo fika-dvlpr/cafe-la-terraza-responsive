@@ -132,7 +132,7 @@ header {
 
 /* MAIN */
 main button:hover {
-  background-color: #C06E33;
+  background-color: #c06e33;
   color: #fff;
 }
 main button {
@@ -170,7 +170,7 @@ main {
   padding: 0 7.5rem;
   margin-top: 60px;
   max-height: 1000px;
-  background: url("../Images/menu-bg-1.jpg") no-repeat top ;
+  background: url("../Images/menu-bg-1.jpg") no-repeat top;
   background-size: cover;
 }
 .main-container {
@@ -319,8 +319,6 @@ main {
 .option-menu-list {
   display: none;
 }
-
-
 
 /* FOOTER */
 .copyright {
@@ -522,12 +520,9 @@ footer {
   }
   header {
     padding: 0 3rem;
-    transition: .5s;
+    transition: 0.5s;
   }
-
 }
-
-
 
 /* LAPTOP */
 @media (max-width: 1082px) {
@@ -548,7 +543,7 @@ footer {
   }
 
   .menu-container h3 {
-    font-size: 14px
+    font-size: 14px;
   }
   .menu-name {
     font-size: 14px;
@@ -569,7 +564,6 @@ footer {
 
 /* TABLET */
 @media (max-width: 768px) {
-
   .menu-list-link a {
     font-size: 12px;
   }
