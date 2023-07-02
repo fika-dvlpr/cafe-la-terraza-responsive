@@ -195,7 +195,7 @@ main {
   text-align: justify;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 20px;
+
 }
 
 .contact-phone-email {
@@ -237,7 +237,7 @@ main {
 }
 
 .message-box {
-  padding: 5px 18.8rem 5rem 12px;
+  padding: 5px 19.4rem 5rem 12px;
   border-radius: 6px;
   margin-bottom: 0.6rem;
 }
@@ -487,7 +487,7 @@ footer {
     justify-content: center;
   }
   .message-box {
-    padding: 5px 14.7rem 5rem 12px;
+    padding: 5px 15.4rem 5rem 12px;
   }
 }
 
@@ -513,7 +513,7 @@ footer {
 
   .message-box {
     font-size: 12px;
-    padding: 5px 5.4rem 5rem 12px;
+    padding: 5px 5.9rem 5rem 12px;
   }
   .submit-button {
     font-size: 12px;
@@ -542,7 +542,22 @@ footer {
     margin-bottom: 1rem;
     transition: .5s;
   }
-  .contact-container {
-    height: 80%;
+  .contact-header h1 {
+    font-size: 14px;
   }
+  .contact-header p {
+    font-size: 10px;
+  }
+  .col input {
+    font-size: 10px;
+    padding: 5px 4rem 5px 12px;
+  }
+  .submit-button {
+    font-size: 10px;
+  }
+  .message-box {
+    font-size: 10px;
+    padding: 5px 4.3rem 5rem 12px;
+  }
+  
 }
