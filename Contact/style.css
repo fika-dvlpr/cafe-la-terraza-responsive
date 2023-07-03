@@ -492,6 +492,9 @@ footer {
 /* TABLET */
 
 @media (max-width: 768px) {
+  main {
+    padding: 5rem 0;
+  }
   .right-container {
     padding: 1rem;
   }
@@ -548,17 +551,20 @@ footer {
   }
   .col input {
     font-size: 10px;
-    padding: 5px 4rem 5px 12px;
+    padding: 5px 4.5rem 5px 12px;
   }
   .submit-button {
     font-size: 10px;
   }
   .message-box {
     font-size: 10px;
-    padding: 5px 3.7rem 5rem 12px;
+    padding: 5px 4.2rem 5rem 12px;
   }
   .contact-container {
     width: 75%;
     height: 60%;
+  }
+  main {
+    padding: 3rem 0;
   }
 }
