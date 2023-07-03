@@ -216,13 +216,12 @@ header {
   align-items: center;
   gap: 5rem;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   max-width: 1440px;
   max-height: 700px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 0;
-  padding-top: 6rem;
 }
 .about-picture img {
   width: 28rem;
@@ -691,7 +690,6 @@ footer {
 @media (max-width: 970px) {
   .about {
     gap: 2rem;
-    padding-top: 0rem;
   }
   .box-container {
     gap: 3rem;
@@ -701,12 +699,6 @@ footer {
   }
   .about-content h1 {
     font-size: 16px;
-  }
-  section {
-    padding: 0rem 6rem;
-  }
-  .reviews-container {
-    gap: 1rem;
   }
   .customer-img-name {
     margin-bottom: 6px;
@@ -750,11 +742,10 @@ footer {
     flex-direction: column;
     text-align: center;
     transition: 0.5s;
-    margin-bottom: 2rem;
   }
 
   .about-picture img {
-    margin-top: 6rem;
+    margin-top: 4rem;
     width: 22rem;
     transition: 0.5s;
   }
@@ -774,7 +765,7 @@ footer {
     margin: 0;
     align-items: center;
     transition: 0.5s;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .customer-1 {
@@ -828,9 +819,6 @@ footer {
   section {
     padding: 0rem 6rem;
   }
-  .customer-reviews {
-    margin-top: 4rem;
-  }
 }
 
 @media (max-width: 544px) {
@@ -839,9 +827,6 @@ footer {
   }
   .home {
     padding: 0 4rem;
-  }
-  .about-picture img {
-    margin-top: 9rem;
   }
   .customer-1 {
     width: 280px;
@@ -917,8 +902,5 @@ footer {
   .home-button {
     padding: 6px 1.2rem;
     font-size: 10px;
-  }
-  .customer-reviews {
-    margin-top: 5rem;
   }
 }

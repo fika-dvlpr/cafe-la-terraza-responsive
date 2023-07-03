@@ -128,7 +128,6 @@ header {
   }
 }
 
-
 /* MAIN */
 main {
   background-color: #fff;
@@ -397,7 +396,7 @@ footer {
 
 @media (max-width: 425px) {
   header {
-    padding: 0 3rem;
+    padding: 0 2rem;
     transition: 0.5s;
   }
 }
@@ -453,8 +452,6 @@ footer {
   line-height: 1.5rem;
 }
 
-
-
 .main-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -496,7 +493,7 @@ footer {
     padding: 20px;
     border: none;
     border-bottom: 1px solid saddlebrown;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .main-left,
@@ -507,7 +504,6 @@ footer {
   .main-right-address {
     width: auto;
     text-align: center;
-    
   }
 }
 
@@ -517,13 +513,12 @@ footer {
     grid-template-columns: 1fr;
     height: auto;
     padding: 20px;
-    transition: .5s;
+    transition: 0.5s;
   }
   .main-left,
   .main-right {
     font-size: 14px;
   }
- 
 
   .main-right-address {
     width: auto;
@@ -536,7 +531,7 @@ footer {
     margin-bottom: 0;
   }
   .main-title span {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .google-maps iframe {
     height: 400px;

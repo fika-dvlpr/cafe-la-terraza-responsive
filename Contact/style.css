@@ -235,7 +235,7 @@ main {
 }
 
 .message-box {
-  padding: 5px 18.8rem 5rem 12px;
+  padding: 5px 19.4rem 5rem 12px;
   border-radius: 6px;
   margin-bottom: 0.6rem;
 }
@@ -458,7 +458,7 @@ footer {
 
 @media (max-width: 425px) {
   header {
-    padding: 0 3rem;
+    padding: 0 2rem;
     transition: 0.5s;
   }
 }
@@ -514,7 +514,7 @@ footer {
 
   .message-box {
     font-size: 12px;
-    padding: 5px 5.3rem 5rem 12px;
+    padding: 5px 5.9rem 5rem 12px;
   }
   .submit-button {
     font-size: 12px;
@@ -558,13 +558,13 @@ footer {
   }
   .message-box {
     font-size: 10px;
-    padding: 5px 4.2rem 5rem 12px;
+    padding: 5px 4.8rem 5rem 12px;
   }
   .contact-container {
     width: 75%;
     height: 60%;
   }
   main {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 }
